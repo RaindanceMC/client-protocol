@@ -12,7 +12,10 @@ import java.util.Optional;
 public enum ClientFeature {
 
     /** The handshake and the theme. Every mod has it. */
-    SESSION(0, 1, 1);
+    SESSION(0, 1, 1),
+
+    /** A panel where the sidebar would be and a line where the action bar would be. */
+    HUD(1, 1, 1);
 
     private final int id;
     private final int oldest;
